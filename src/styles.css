@@ -1,0 +1,163 @@
+html {
+  background-color: #272727;
+  width: auto;
+  height: auto;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Content {
+  height: 40px;
+  font-size: 25px;
+  margin: 0 0 0 25px;
+}
+
+.App {
+  background-color: white;
+  border-radius: 25px;
+  width: 800px;
+  height: 340px;
+}
+
+.TwitterPost {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeaderName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LeftSide {
+  width: 340px;
+  height: 120px;
+  display: flex;
+}
+
+.Ceo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 25px 0 0 25px;
+}
+
+.BlueBird {
+  width: 55px;
+  height: 45px;
+  margin: 25px 25px 0 0;
+}
+
+.Verified {
+  width: 25px;
+  height: 25px;
+  margin: 35px 0 0 5px;
+}
+
+.LeftSide h1 {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.LeftSide p {
+  color: grey;
+  font-size: 20px;
+  margin-top: 63px;
+  margin-left: -140px;
+}
+
+.ContentData {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.HoraData {
+  font-weight: normal;
+  height: 40px;
+  width: 190px;
+  font-size: 20px;
+  color: grey;
+  margin-left: 15px;
+}
+
+.ViewSection {
+  font-size: 24px;
+}
+
+.ViewsText {
+  font-weight: normal;
+  color: grey;
+}
+
+.Bookmarks {
+  font-size: 20px;
+  height: 25px;
+  margin: 8px 13px;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px 0;
+  border-color: rgb(240, 240, 240);
+  padding: 10px 0 8px 0;
+}
+
+.Bookmarks h1 {
+  display: flex;
+  font-size: 20px;
+  margin-right: 5px;
+  color: black;
+}
+
+.Bookmarks p {
+  color: grey;
+}
+
+.LastContent {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.chat-icon {
+  width: 26px;
+  height: 30px;
+  margin-top: 7px;
+}
+
+.Heart {
+  display: flex;
+  width: 65px;
+  height: 65px;
+  margin-left: 25px;
+}
+
+.Heart img {
+  margin-top: 10px;
+  width: 20px;
+  height: 23px;
+}
+
+.Heart span {
+  margin: 12px 0 0 6px;
+  color: grey;
+  font-size: 20px;
+}
+
+.ChatNumber {
+  color: grey;
+  font-size: 20px;
+  font-weight: lighten;
+}
+
+.ChatNumber p {
+  margin: 12px 0 0 6px;
+}
